@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    user-select: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    flex-direction: column;
+    position: relative;
+}
+button{
+    height: 35px;
+    margin: 0px 10px;
+    border: none;
+    background: #666f88;
+}
+.box{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background: purple;
+}
+.box1{
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    left: 288px;
+    background:  rgba(255, 0, 0, 0.687);
+    cursor: pointer;
+}
+.box3{
+    position: absolute;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    right: 287px;
+    background: rgba(0, 128, 0, 0.687);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+}
+#restart{
+    margin-top: 10px;
+    width: 150px;
+    font-size: 24px;
+    color: #f3f3f3;
+    border-radius: 4px;
+}
