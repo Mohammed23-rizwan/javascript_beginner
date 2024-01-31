@@ -7,8 +7,8 @@
     font-family: 'Quicksand', sans-serif;
 }
 body{
-    width: 100Vw;
     height: 100vh;
+    font-weight: normal;
 }
 
 section{
@@ -28,15 +28,53 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .wrapper{
     width: 350px;
     height: 250px;
     background: #e6cab3cf;
     border-radius: 25px;
-    margin: 20px;
+    padding: 20px;
 }
 .main_temp{
     width: 100%;
-    height: 30%;
+    height: 37%;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 25%;
+    height: 75px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-position: center;
+}
+.reviewnamenwork{
+    width: 70%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info{
+    padding-top: 10px;
+    text-align: justify;
+}
+.button_section{
+    padding-top: 10px;
+}
+button{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    color: honeydew;
+}
+button ion-icon{
+    font-size: 25px;
 }
