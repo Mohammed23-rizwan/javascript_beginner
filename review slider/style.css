@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    transition: all .5s ease-in-out;
 }
 body{
     height: 100vh;
