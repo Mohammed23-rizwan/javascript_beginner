@@ -1,12 +1,12 @@
-const loadText = document.querySelector('.loadingcontainter')
-const bg = document.querySelector(`.bgcontainer`)
+const loadText = document.querySelector('.Loadingcontainer')
+const bg = document.querySelector('.bgcontainer')
 
 const scale = (num, in_min, in_max, out_min, out_max) => {
     return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
 }
 
 let load = 0
-let int = setInterval(blurring, 300)
+let int = setInterval(blurring, 30)
 
 function blurring(){
     load++
