@@ -1,9 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'poppins';
-    color: #f3f3f3;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  /* color: #f3f3f3; */
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Assets/Images/Blur-Loadingbg.jpg);
+  background-size: cover;
+}
+.container {
+  width: 550px;
+  height: 350px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.433);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.modalcontainer {
+  position: absolute;
+  width: 550px;
+  height: 350px;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  visibility: hidden;
+}
+.modalcontainershow {
+  visibility: visible;
+}
+.iconic {
+  font-size: 28px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
